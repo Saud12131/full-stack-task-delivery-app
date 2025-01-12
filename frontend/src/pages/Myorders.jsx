@@ -18,7 +18,7 @@ export default function MyOrders() {
             Authorization: `Bearer ${token}`,
           },
         });
-        setOrders(response.data.orders); // Assuming response.data.orders is the correct structure
+        setOrders(response.data.orders); 
         setLoading(false);
       } catch (err) {
         setError('Failed to fetch orders. Please try again later.');
@@ -71,7 +71,9 @@ export default function MyOrders() {
                     <td>
                       {order.items.map((item, index) => (
                         <div key={index}>
-                          {item.menuItemId.name} x {item.quantity} (${item.menuItemId.price})
+                          {item.menuItemId 
+                            ? `${item.menuItemId.name} x ${item.quantity} ($${item.menuItemId.price})`
+                            : `Unknown Item x ${item.quantity}`}
                         </div>
                       ))}
                     </td>
