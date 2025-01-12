@@ -102,11 +102,11 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 ## 📱 Screenshots
 
 ### Homepage
-![Homepage](https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=1200&h=400)
+![Homepage]()
 *Browse through our extensive food catalog*
 
 ### Cart
-![Cart](https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=1200&h=400)
+![Cart]()
 *Manage your orders with our intuitive cart system*
 
 ## 📚 Learning Outcomes
