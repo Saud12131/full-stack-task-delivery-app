@@ -73,27 +73,8 @@ Homepage
 Cart
 (Insert a screenshot of the cart page with added food items.)
 
-Folder Structure
-bash
-Copy code
-full-stack-task-delivery-app/
-│
-├── backend/
-│   ├── models/          # Mongoose schemas for database
-│   ├── routes/          # API routes
-│   ├── controllers/     # Business logic
-│   ├── app.js           # Main backend server file
-│   └── .env             # Environment variables
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # React components
-│   │   ├── context/     # useContext implementation
-│   │   └── App.jsx      # Main React app file
-│   └── public/          # Static files
-│
-└── README.md            # Documentation
 Learnings from the Assignment
+
 Hands-on experience with the MERN stack.
 State management with React hooks.
 Using Bootstrap for responsive UI design.
