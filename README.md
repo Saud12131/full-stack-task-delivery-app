@@ -101,14 +101,6 @@ A full-stack food delivery application built with the MERN stack (MongoDB, Expre
 
 ## 📱 Screenshots
 
-### Homepage
-![Homepage]()
-*Browse through our extensive food catalog*
-
-### Cart
-![Cart]()
-*Manage your orders with our intuitive cart system*
-
 ## 📚 Learning Outcomes
 
 - Deep understanding of MERN stack integration
