@@ -76,7 +76,7 @@ function Navbar() {
             )}
             {token ? (
               <li className="nav-item">
-                <button className="btn btn-danger fw-bold" onClick={logout}>
+                <button className="btn  fw-bold" onClick={logout}>
                   LogOut
                 </button>
               </li>

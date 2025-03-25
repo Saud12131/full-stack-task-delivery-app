@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate , Link} from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios'
 import { useState } from 'react';
 import Spinner from '../components/Spinner';
@@ -31,7 +31,7 @@ export default function Login() {
             alert("please enter correct fields");
         }
     }
-   
+
 
     // <div className='d-flex justify-content-center align-items-center vh-100'>
     //     <Spinner />
@@ -45,7 +45,7 @@ export default function Login() {
                         <div className="card-body">
                             <h2 className="card-title text-center mb-4">Login</h2>
                             <p>
-                          <Link to={"/signup"}>Don't have an account ? lets Signup</Link>
+                                <Link to={"/signup"}>Don't have an account ? lets Signup</Link>
                             </p>
                             <form onSubmit={handelsubmit}>
                                 <div className="mb-3">
@@ -72,8 +72,8 @@ export default function Login() {
                                 </div>
                                 <div className="d-grid">
                                     <button type="submit" className="btn btn-primary">
-                                       {loading?<Spinner/>:"Login"}
-                                        </button>
+                                        {loading ? <Spinner /> : "Login"}
+                                    </button>
                                 </div>
                             </form>
                         </div>
